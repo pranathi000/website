@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"content="width=device-width, intial-scale=1.0" />
+        <title>
+            pranathi - web developer , programmer, enthusiast
+        </title>
+        <link rel="stylesheet" href="css/anime.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script defer src="anime.js"></script>
+
+    </head>
+    <body style="width: -1rem;">
+        <header>
+            <a href="#" class="brand">Travel</a>
+            <div class="menu-btn"></div>
+                <div class="navigation">
+                    <div class="navigation-items">
+                        <a href="#">HOME</a>
+                        <a href="#">ABOUT</a>
+                        <a href="#">EXPLORE</a>
+                        <a href="#">GALLERY</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                </div>
+        </header>
+        <section class="home">
+            <video class="vedio-slide" src="https://player.vimeo.com/external/433071445.sd.mp4?s=1d7b307122a6edc039364d7e65d80f3f42242fc5&profile_id=164&oauth2_token_id=57447761"  autoplay  muted loop></video>
+            <!-- <video width="320" height="240" loop autoplay muted>
+                <source src="https://player.vimeo.com/progressive_redirect/playback/716706676/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=b9b1fc5b6e678e6bc37de5db67536760c1719fd6685df75c7f0ecb3f10f8b9cd" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              </video> -->
+            <div class="content">
+                 <h1>Wonderful.<br><span>Island</span></h1>
+                 <p>Lorem ipsum dolor sit amet consectent omnis ducimus nam! Libero sit autem nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos perspiciatis nostrum inventore illum vel molestias pariatur harum quasi rem atque, ex fuga voluptatum nisi necessitatibus aliquam eius possimus quas?</p>
+                 <a href="#">Read More</a>
+            </div>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+
+        </section>
+        <div class="cursor"></div>
+        <script type="text/javascript">
+            const menuBtn = document.querySelector(".menu-btn");
+            const navigation = document.querySelector(".navigation");
+            
+            menuBtn.addEventListener("click", () => {
+                menuBtn.classList.toggle("active");
+                navigation.classList.toggle("active");
+            }); 
+            
+        </script>
+    </body>
+</html>
